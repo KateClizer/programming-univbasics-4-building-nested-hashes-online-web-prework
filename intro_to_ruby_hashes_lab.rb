@@ -27,8 +27,9 @@ def monopoly_with_third_tier
   # complexity.
   
   monopoly = {
+	  :names => {}
 	  :railroads => {
-	    :names => {}
+	    
 	    :rent_in_dollars => { names: "reading_railroad", 
 	     names1: "pennsylvania_railroad", 
 	     names2: "b_and_o_railroad", 
